@@ -1,0 +1,35 @@
+body{
+  background:#020617;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.area{
+  padding:40px;
+  background:#0f172a;
+  border-radius:12px;
+}
+
+#menu{
+  position:fixed;
+  background:#1e293b;
+  list-style:none;
+  padding:6px 0;
+  margin:0;
+  border-radius:8px;
+  display:none;
+}
+
+#menu li{
+  padding:8px 16px;
+  cursor:pointer;
+}
+
+#menu li:hover{
+  background:#22c55e;
+  color:#022c22;
+}
